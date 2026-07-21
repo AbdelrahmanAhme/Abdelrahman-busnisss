@@ -1,0 +1,231 @@
+
+
+.logo{
+   
+    background-color:#005925;
+
+
+
+
+}
+.links a{
+
+ 
+color:white;
+font-size:25px;
+padding: 25px 25px;
+text-decoration:none;
+border-radius:20px;
+ transition: 0.4s ease;
+
+}
+.links a:hover{
+background-color:#00451d ;
+color:black;
+    transform: scale(1.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.links button:hover{
+    background-color:#ff2727;
+}
+
+.btn{
+        background-color:#ff4e4e;
+    font-size:20px;
+
+    color:white;
+    border-radius:16px;
+    
+
+}
+.btn:hover{
+    background-color:#ff2727;
+}
+.spaces{
+
+    
+    display:flex;
+    align-items:center;
+    justify-content :space-between;
+    padding:10px
+
+}
+
+.p2{
+    background-color:#005925;
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+    justify-content :space-between;
+    padding: 25px;
+    color:white;
+    border-radius:0px 0px 50px 50px;
+
+}
+
+ .search-bar input{
+    border-radius: 50px;
+    border:none;
+    outline:none;
+    height:30px;
+    padding: 0px 10px;
+
+ }
+
+ .search-bar button{
+position: absolute;
+left: 180px;
+height:30px
+
+
+ }
+
+.img-con img{
+    border-radius: 40px;
+
+
+}
+
+.sign-in {
+    width: 350px;              
+    background-color:#00451d;  
+    padding: 40px;              
+    border-radius: 50px;        
+    margin: auto;              
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin-top: 80px;
+
+}
+.box{
+background-color:#00451d;
+padding: 40px;
+border-radius: 50px;
+box-shadow: 0 0 40px rgba(0,0,0,0.4);
+text-align: center;
+
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #005925;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size:20px
+}
+.dropbtn:hover{
+    background-color: #00451d;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.search-bar button{
+    position: absolute;
+    left: 180px;
+    height:30px;
+}
+.search-bar2 input{
+    border-radius: 50px;
+    border:none;
+    outline:none;
+    height:40px;
+    padding: 0px 10px;
+        width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+
+}
+
+.btn2{
+        background-color:#ff4e4e;
+    font-size:30px;
+
+    color:white;
+    border-radius:16px;
+    
+
+}
+.btn2:hover{
+    background-color:#ff2727;
+}
+.links .dropbtn:hover {
+    background-color: #00451d;
+}
+.corses-contaner{
+    padding:25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-info{
+
+    justify-content: space-between;
+    background-color: #cecece;
+   border-radius:20px ;
+
+
+}
+.card-info img{
+    width: 60px;
+
+    border-radius:20px ;
+
+    
+
+}
+.cards .imgOfCourses{
+    border-radius: 20px;
+}
+.cards{
+    width: 400px;
+    display: flex;
+    gap: 60px;
+    margin:0px 20px ;
+}
+.app{
+     background-color:#1eff1e;
+    font-size:20px;
+
+    color:white;
+    border-radius:16px;
+
+}
