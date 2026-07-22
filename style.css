@@ -229,3 +229,71 @@ text-align: center;
     border-radius:16px;
 
 }
+
+@media (max-width:768px){
+
+    .spaces{
+        flex-direction: column;
+        gap:15px;
+        text-align:center;
+    }
+
+    .p2{
+        flex-direction: column;
+        text-align:center;
+        padding:20px;
+    }
+
+    .corses-contaner{
+        flex-direction: column;
+        gap:25px;
+        padding:20px;
+    }
+
+    .cards{
+        width:100%;
+        margin:0;
+        justify-content:center;
+    }
+
+    .img-con img{
+        width:100%;
+        max-width:300px;
+        height:auto;
+    }
+
+    .sign-in,
+    .box{
+        width:90%;
+        padding:25px;
+    }
+
+    .links{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .links a{
+        display:block;
+        padding:15px;
+        font-size:20px;
+    }
+
+    .search-bar{
+        width:100%;
+        position:relative;
+    }
+
+    .search-bar input{
+        width:100%;
+        box-sizing:border-box;
+    }
+
+    .search-bar button{
+        position:absolute;
+        right:5px;
+        left:auto;
+    }
+
+}
